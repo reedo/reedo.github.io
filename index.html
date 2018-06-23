@@ -5,7 +5,41 @@
   </head>
   <body>
     <h1>Hello world!</h1>
-    <p>How&rsquo;s
-      <em>everyone</em> doing?</p>
+    <p>Please fill in the form below, then click register.<br>
+       Note an asterisk (<font color="red">*</font>) denotes a required field.</p>
+    <br>
+    <form>
+      <table style="width:100%">
+        <tr>
+          <td><font color="red">*</font></td>
+          <td><label>First name:</label></td>
+          <td colspan="3"><input type="text" required></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><label>Last name:</label></td>
+          <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+          <td><font color="red">*</font></td>
+          <td><label>Email:</label></td>
+          <td colspan="3"><input type="email" required></td>
+        </tr>
+        <tr>
+          <td><font color="red">*</font></td>
+          <td><label>Date of Birth:</label></td>
+          <td colspan="3"><input type="date"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><label>Gender:</label></td>
+          <td><input type="radio" name="gender"> Male</td>
+          <td><input type="radio" name="gender"> Female</td>
+          <td><input type="radio" name="gender"> Other</td>
+        </tr>
+      </table>
+      <input type="submit" value="Sign up">
+      <input type="reset">
+    </form>
   </body>
 </html>
