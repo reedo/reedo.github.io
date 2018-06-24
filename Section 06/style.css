@@ -1,10 +1,10 @@
 @import "palette.css";
 
 body {
-  background-color: var(--color-primary-1);
+  background-color: var(--col-p0);
 }
 h2 {
-  color: var(--color-primary-0);
+  color: var(--col-p2);
   text-align: center;
   border: 0.2rem solid;
 }
@@ -13,5 +13,5 @@ li {
   display: inline;
 }
 p {
-  color: var(--color-primary-4);
+  color: var(--col-p4);
 }
