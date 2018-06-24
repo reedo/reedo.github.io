@@ -1,0 +1,13 @@
+.container {
+  border-width: 100%;
+  padding: 0rem 1rem;
+  justify-content: center;
+}
+header {
+  text-align: center;
+  border-bottom: 2px green;
+}
+img {
+  width: 100%;
+  height: auto;
+}
