@@ -1,7 +1,19 @@
+@import "palette.css";
+
+body {
+  background-color: var(--color-primary-1);
+}
 h2 {
-  color:rgb(177, 5, 5);
+  color: var(--color-primary-0);
+  text-align: center;
+  border: 0.2rem solid;
+}
+
+li {
+  list-style: none;
+  display: inline;
 }
 
 p {
-  color:rgb(99, 33, 44);
+  color: var(--color-primary-4);
 }
