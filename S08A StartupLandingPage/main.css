@@ -1,4 +1,18 @@
 .body {
-  background-image: url(https://raw.githubusercontent.com/ahsanazim/slack-landing-page/master/screen_caps/main_background.jpg);
-  background-color: black;
+  background-image: url(main_background.jpg);
+  background-size: auto;
+}
+.jumbotron {
+  text-align: center;  
+  background-color: #28153de7;
+}
+h1 {
+  color: aliceblue;
+}
+.lead {
+  color: aliceblue;
+  font-size: 1rem;
+}
+.form-group {
+  width: 50%;
 }
