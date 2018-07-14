@@ -1,2 +1,2 @@
-# Reedo's Website
-Test bed for random code.
+# ReedError Website
+Official site for the ReedError project.
