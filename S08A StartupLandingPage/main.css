@@ -1,10 +1,13 @@
-.body {
-  background-image: url(main_background.jpg);
-  background-size: auto;
+body,
+html {
+  width: 100%;
+  height: 100%; 
 }
-.jumbotron {
-  text-align: center;  
-  background-color: #28153de7;
+header.startup {
+  background-position: center;
+  background-image: url("main_background.jpg");
+  background-size: cover;
+  height: 100%;
 }
 h1 {
   color: aliceblue;
@@ -14,5 +17,8 @@ h1 {
   font-size: 1rem;
 }
 .form-group {
-  width: 50%;
+  width: 70%;
+}
+.spacer {
+  height: 5rem;
 }
