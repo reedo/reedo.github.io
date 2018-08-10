@@ -1,2 +1,2 @@
-# ReedError Website
-Official site for the ReedError project.
+# ReedErrorSite
+The front facing pages for the ReedError project.
